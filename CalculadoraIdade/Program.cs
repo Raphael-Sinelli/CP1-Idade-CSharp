@@ -33,7 +33,7 @@ internal static class Program
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("=========================================");
-        Console.WriteLine("      CALCULADORA DE IDADE - CP1 C#      ");
+        Console.WriteLine("      CALCULADORA DE IDADE (CP1 C#)      ");
         Console.WriteLine("=========================================");
         Console.ResetColor();
         Console.WriteLine();
