@@ -55,4 +55,10 @@ public struct Pessoa
         int faltam = IdadeMinima - CalcularIdade(DateTime.Today);
         return faltam > 0 ? faltam : 0;
     }
+
+    /// <summary>Data em que a pessoa completa a idade mínima para tirar a CNH.</summary>
+    public DateTime DataParaCnh()
+    {
+        return DataNascimento.AddYears(IdadeMinima);
+    }
 }
